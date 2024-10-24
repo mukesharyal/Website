@@ -18,8 +18,38 @@ main {
     z-index: 0;
 }
 
+/* Preloader background */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Can be any color */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Spinner */
+  .spinner {
+    border: 6px solid #f3f3f3; /* Light gray */
+    border-top: 6px solid #fba4a1; /* Pinkish */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Animation for spinner */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
-
-main{
-    background-color: #d9d9d9;
-}
+  body {
+    overflow: hidden; /* Disable scrolling while preloading */
+  }
+  
+  
