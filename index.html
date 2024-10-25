@@ -97,7 +97,10 @@
       <br />
 
 
-      <div class="grid is-mobile is-gap-4" id="products-container">
+      <div class="fixed-grid has-4-cols-desktop has-2-cols-mobile">
+        <div class="grid is-gap-4" id="products-container">
+
+        </div>
 
 
     <!-- The products will be rendered by JavaScript here -->    
@@ -551,17 +554,31 @@
         </p>
         <button class="delete" aria-label="close"></button>
       </header>
-      <section class="modal-card-body">
-        
+      <section class="modal-card-body has-text-justified">
+        <div class="is-flex is-justify-content-center">
+          <figure class="image box modal-card-figure">
+            <!-- The projector image goes here -->
+          </figure>
+        </div>
+        <br />
+        <p class="modal-card-description">
+          <!-- The projector image goes here -->
+        </p>
       </section>
       <footer class="modal-card-foot">
         <div class="buttons">
-          <button class="button is-success">Save changes</button>
+          <a target="_blank" class="button is-success open-pdf">Open Datasheet</a>
           <button class="button">Cancel</button>
         </div>
       </footer>
     </div>
   </div>
+
+
+
+
+
+
 
   <div id="preloader">
     <div class="spinner"></div>
