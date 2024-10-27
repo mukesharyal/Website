@@ -13,7 +13,8 @@
 #spare-parts,
 #accessories,
 #about,
-#find {
+#find,
+.info-section {
   background-image: url('Assets/background.jpg');
   background-size: cover;
   background-position: center;
@@ -57,6 +58,7 @@
     transform: rotate(360deg);
   }
 }
+
 
 
   
