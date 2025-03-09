@@ -782,7 +782,7 @@ const products = [
               <div class="card-content">
                 <div class="media">
                   <div class="media-content">
-                    <p class="title is-4 is-size-6-mobile">${product.name}</p>
+                    <p class="is-4 is-size-6-mobile">${product.name}</p>
                     <a href="buy-${product.brand.toLowerCase()}-projectors-in-nepal.html" aria-label="Go to the description page for ${product.brand}" class="button tag-button is-primary mb-1 is-small">${product.brand}</a>
                     ${smartButton}
                   </div>
