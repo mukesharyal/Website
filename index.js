@@ -763,7 +763,7 @@ const products = [
       products.forEach((product, index) => {
         if(product.isSmart !== undefined)
         {
-          smartButton = `<a href="buy-smart-android-projectors-in-nepal.html" aria-label="Go to the description page for Smart Android Projectors" class="button is-info mb-1 is-small">Smart</a>`;
+          smartButton = `<a href="buy-smart-android-projectors-in-nepal.html" aria-label="Go to the description page for Smart Android Projectors" class="button tag-button is-success mb-1 is-small">Smart</a>`;
         }
 
         const productCard = `
@@ -783,7 +783,7 @@ const products = [
                 <div class="media">
                   <div class="media-content">
                     <p class="title is-4 is-size-6-mobile">${product.name}</p>
-                    <a href="buy-${product.brand.toLowerCase()}-projectors-in-nepal.html" aria-label="Go to the description page for ${product.brand}" class="button is-primary mb-1 is-small">${product.brand}</a>
+                    <a href="buy-${product.brand.toLowerCase()}-projectors-in-nepal.html" aria-label="Go to the description page for ${product.brand}" class="button tag-button is-primary mb-1 is-small">${product.brand}</a>
                     ${smartButton}
                   </div>
                 </div>
