@@ -64,10 +64,9 @@
 }
 
 
-
+.section strong,
 .section .title,
-.section .subtitle,
-.section strong
+.section .subtitle
 {
   color: #000000
 }
