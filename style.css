@@ -24,7 +24,7 @@
 #find,
 .info-section,
 .footer {
-  background-color: #ffffff;
+  background-color: #FEF2F1;
 
 
 
@@ -63,6 +63,13 @@
   color: #ffffff
 }
 
+
+
+.section .title,
+.section .subtitle
+{
+  color: #000000
+}
 
 
 
