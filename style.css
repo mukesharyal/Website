@@ -65,7 +65,9 @@
 
 
 
-.section
+.section h2,
+.section h5,
+.section .title
 {
   color: #000000
 }
