@@ -1,26 +1,28 @@
-# M Tech Solution House Pvt. Ltd.
+# 📽️ M Tech Solution House Pvt. Ltd.
 
-This repository contains the static website for [M Tech Solution House](https://www.mtsh.com.np), our projector sales and repair business.
+Welcome to the official repository of [M Tech Solution House](https://www.mtsh.com.np) — a projector sales and repair business based in Nepal.
 
-## Overview
+## 🌐 Overview
 
-The website consists of 20+ static web pages designed to showcase our projector products and repair services. The site is built with simplicity in mind, using only:
+This static website consists of 20+ HTML pages designed to highlight our projector products and professional repair services. It is built with simplicity, speed, and clarity in mind, using:
 
-- HTML
-- [Bulma CSS Framework](https://bulma.io/) for styling
+- 🧱 **HTML** for structure  
+- 🎨 **[Bulma CSS](https://bulma.io/)** for responsive and modern styling
 
-## Hosting
+## 🚀 Hosting
 
-The website is hosted on GitHub Pages, providing a reliable and cost-effective hosting solution for our static content. No server-side processing is required as the site serves only static content and images.
+The site is proudly hosted on **GitHub Pages**, offering a fast and cost-effective platform for serving static content.  
+No server-side code — just clean, fast-loading static files and images.
 
-## Website Structure
+## 🗂️ Website Structure
 
-The repository includes:
-- HTML files for all pages
-- CSS styling (Bulma)
-- Images and other static assets
-- Supporting documentation
+This repository includes:
 
-## Live Site
+- 📄 HTML files for all pages  
+- 🎨 Bulma CSS framework  
+- 🖼️ Images and static assets  
+- 📘 Supporting documentation
 
-Visit the live site at [https://www.mtsh.com.np](https://www.mtsh.com.np)
+## 🔗 Live Website
+
+👉 Visit us at: [https://www.mtsh.com.np](https://www.mtsh.com.np)
